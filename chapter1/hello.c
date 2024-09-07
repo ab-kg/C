@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-int main(){
+int flskdjfldjfldjfldjmain(){
     int var1 , var2 , var3 ; 
     var1 = var2 = var3 = 3 ; 
     printf("%d" , var1);
     printf("%d" , var2);
-    printf("%d" , var3);
+    printf("%d" ,var3);
 
     int var  = 2 ; 
     var = 4 ; 
