@@ -1,0 +1,6 @@
+Every version of iterative program can be written in recursive form .
+
+What should be used ? 
+
+Advantage of Recursive over Iterative . 
+--- Recursive programs are more elegant and less lines of code 
