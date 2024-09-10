@@ -1,0 +1,18 @@
+* operator just gives us the value at that address
+& operator gives us the address of the value
+
+eg 
+int i = 10      address = 100
+int *p = &i ;
+
+&i = gives us the address of i tht is = 100
+p = in p pointer address of i is stored here as 100
+*p = here * operator which is called dereference operator gives us the value at *(100) that is 10
+
+*&i = *(&i) = *(address of i) = *(100) = *(value at address 100) = 10 
+
+
+-----------------------------------------------------------------------------------------------
+
+Pointer Arithmetic :
+
