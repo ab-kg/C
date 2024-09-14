@@ -1,0 +1,49 @@
+Introduction to Abstract Data Types
+
+
+LIST as Abstract data type
+
+List 
+- Store given number of elements of a given data type 
+- Write modify element at a position
+- Read an element at a position
+
+Array gives us all these features . 
+int A[10];
+A[0] = 2
+print A[i];
+
+
+List
+- much more dynamic data type  
+- empty list has size 0 
+- insert 
+- remove 
+- count 
+- read / modify at position
+- specify data type 
+
+Array being used to get at our required data structure 
+ 
+int A[MAXSIZE] - choosing data type
+int end = - 1 , => count , empty list has size 0
+insert(2) => insert 
+insert(4)
+insert(6)
+insert(7)
+insert(9)
+insert(5 , 2)
+remove(0) => remove 
+
+when the array is full , create a new larger array , copy previous array into the new array .
+free the memory for the previous array
+
+1. accessing element => constant time O(1)
+2. insert => Linear at worst case O(N)
+3. remove => O(N) bcos of the shifting will happen
+4. Adding an element => O(N) 
+
+-- Arrays have some limitation -- 
+
+
+Linked List , explores the good utilisation of linked lists

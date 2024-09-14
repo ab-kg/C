@@ -1,0 +1,36 @@
+Data Structures basics 
+
+How data structures help us store data and things like that 
+
+Types of Data :
+1. Relational Data
+2. Image
+3. Audio
+4. Video
+
+Definition:
+A data structure is a way to store and organize data in a computer , so that it can be used efficiently
+
+1. Mathematical / Logical models
+eg: Abstract Data types : List , Read , Modify element 
+
+List 
+- store a given no 
+- read elements by position
+- modify elements at a position
+
+Array - concrete implementation
+Linked List - another concrete implementation
+
+Abstract Data Types
+define data and operations but no implementation
+
+Example:
+1. Array
+2. Linked List
+3. Stack 
+4. Queue 
+5. Graph
+
+
+

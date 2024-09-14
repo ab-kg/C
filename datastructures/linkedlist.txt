@@ -1,0 +1,12 @@
+---- INTRODUCTION TO LINKED LIST ----
+
+Linked List 
+
+[data][address] --> [data][address] --> [data][address] --> [data][address]
+    |
+    |
+
+Time Complexity of each operation:
+
+1. accessing to elements => O(N)
+2. insert => O(N)

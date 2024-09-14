@@ -1,0 +1,29 @@
+--- ARRAY VS LINKED LIST ---
+
+OPERATIOIN                  - ARRAY        - LINKED LIST 
+ 
+1. Accessing an element     -  O(1)        - O(N)
+2. Memory requirements      - Fixed size   - 
+3. Inserting element 
+    at beginning            - O(N)         - O(1)
+    at end                  - O(1)         - O(N)
+    at middle               - O(N)         - O(N) traversing will be there 
+                              shifting                           
+4. Ease of use              - easy         - difficult ( specially with c and c++)
+
+
+---------------------
+Accessing an element in array will have O(1) time complexity as we can find the 
+address of any element by just mutiplying with 4 and adding to the address of the
+first element . 
+
+1   2   3   4   5 
+200
+
+address of 5 => 200 + 4*i 
+
+One operation will give us the index of the element in array as all the elements
+are arranged in the same order or all are adjacent in memory . 
+
+
+
