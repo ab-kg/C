@@ -1,0 +1,74 @@
+File Structure in this folder :
+
+1. basics.txt
+2. allocate.c
+3. access.C
+4. reallocate.C
+5. deallocate.C
+6. memoryex.C
+
+
+
+
+
+C Memory Management 
+
+--------
+Memory Management 
+
+1. allocation - reserving memory
+2. reallocation - 
+3. deallocation 
+
+Memory
+1. Static Memory
+    memory reserved befor the program runs
+
+2. Dynamic Memory
+    memory that is allocated after the program starts running 
+    runtime memory allocation
+
+    malloc()
+    calloc()
+    functions are used to allocate dynamic memory 
+    <stdlib.h>
+    header to use bf4 calloc() and malloc()
+
+    The malloc() and calloc() functions allocate some memory and return a pointer to its address
+
+    -------------------------------------------------
+    int *ptr1 = malloc(size)
+    // size in bytes 
+    int *ptr2 = calloc(amount , size)
+    --------------------------------------------------
+    // no of items = amount 
+    // size of each item in bytes = amount 
+
+    Unlike malloc(), the calloc() function writes zeroes into all of the allocated memory. However, this makes calloc() slightly less efficient.
+
+    --------------------------------------------------
+    int *ptr1, *ptr2;
+    ptr1 = malloc(sizeof(*ptr1));
+    ptr2 = calloc(1, sizeof(*ptr2));    
+    ---------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// where is this over-confidence coming from 
+// you just learnt about a concept on your own 
+// and you started loosing focus on the shit 

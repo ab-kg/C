@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int numbers(n)
+int numbers(int n )
 {
     if( n < 2)
     {   
@@ -12,6 +12,7 @@ int numbers(n)
     }
     return 0 ;
 }
+
 
 int main()
 {   

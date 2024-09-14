@@ -15,7 +15,6 @@ int series(n)
         return (series(n-1) + series(n-2));
 }
 
-
 int main()
 {
     int n = 10;
