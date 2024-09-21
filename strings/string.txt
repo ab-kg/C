@@ -1,0 +1,17 @@
+String Literal 
+
+"Hello Everyone"
+
+
+int main()
+{
+
+    printf("%s" , "Hello");
+    return 0 ;
+}
+
+
+-------------------------------------------
+
+Many libraries in C assume that string has zero character at the end of character array or what is called string
+
