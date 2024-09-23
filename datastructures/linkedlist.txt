@@ -10,3 +10,6 @@ Time Complexity of each operation:
 
 1. accessing to elements => O(N)
 2. insert => O(N)
+
+
+

@@ -5,7 +5,6 @@
 // row 0 , row 1 , row 2 
 // col 0 , col 1 , col 2 
 
-
 // for(int i = 0 ; i < row ; i++)
 // {
 //     for(int j = 0 ; j < col ; j++)

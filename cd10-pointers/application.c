@@ -29,10 +29,7 @@ int main()
     minMax(a , len , &min , &max);
     printf("Minimum value in the arry is : %d and maximum value is: %d \n" , min , max);
 
-   return 0 ;
-   
-
-   
+   return 0 ;   
 }
 
 // when you run the dry run on this piece of code we can see the importance of pointers
