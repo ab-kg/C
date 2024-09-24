@@ -1,0 +1,11 @@
+Before understanding Linked List or any other data structure 
+we need to understand the realtionship between structures and functions
+
+1. Passing structure member as argument
+2. Passing structure variable as argument
+3. Passing pointers to structures as arguments
+4. Returning a structure variable from the functions
+5. Returning a pointer to a structure from the functions
+6. Passing array of structures as argument
+7. Self Referential structures 
+

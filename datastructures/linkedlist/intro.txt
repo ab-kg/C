@@ -1,0 +1,2 @@
+Linked list can be anywhere unlike array .
+
