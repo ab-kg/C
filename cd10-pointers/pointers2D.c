@@ -28,7 +28,6 @@ int main()
         } ;
     };
 
-
     for(int i = 0 ; i < 2 ; i++)
     {
         for(int j = 0 ; j < 3 ; j++)
@@ -40,13 +39,13 @@ int main()
 
     // this is how you point to multi-dimensional array 
     int (*p)[3] = B;
+
     printf("%d\n" , p);
     printf("%d\n" , B);
     printf("%d\n" , B[0]);
     printf("%d\n" , B[0][0]);
     printf("%d\n" , &B[0][0]);
-    printf("%d\n" , &B[0]);
-
+    // printf("%d\n" , &B[0]);
     
     // printf("\n");
     // printf("%d\n" , *B);

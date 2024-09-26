@@ -3,7 +3,7 @@
 // Heap             => 
 // Stack            => Function Calls / Local Variable
 // Static / Global  => global variables
-// Code 
+// Code /Text 
 
 
 
@@ -107,7 +107,7 @@ int main()
 {
     int n ;
     printf("enter size of array");
-    scanf("%d" , n);
+    scanf("%d" , &n);
 
     int *A = (int*)malloc(n*sizeof(int));
 
@@ -121,5 +121,8 @@ int main()
         printf("%d " , A[i]);
     }
 
+    return 0 ;
 }
+
+
 

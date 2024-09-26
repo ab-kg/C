@@ -3,7 +3,6 @@
 // IN this video we are learning about character arrays and pointers and how they are similar to each other 
 // Arrays are always to fucntion as reference 
 
-
 #include <stdio.h>
 #include <string.h>
 
@@ -11,7 +10,7 @@ void print(const char *C)
 {
     while(*C != '\0')
     {
-        printf("%C" , *C);
+        printf("%c" , *C);
         C++;
     }
 

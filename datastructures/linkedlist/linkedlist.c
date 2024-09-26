@@ -74,8 +74,6 @@ int main()
     return 0 ;
 }
 
-
-
 // typedef struct Node{
 //     int x ;
 //     struct Node* next ;
