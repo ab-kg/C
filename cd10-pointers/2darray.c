@@ -22,8 +22,20 @@
 // row major property . 
     
 int main()
-{   
-    
+{       
+    int A[5] = { 1 , 2 , 3 , 4 , 5};
+
+    int *p = A;
+    printf("%d " , p);
+    printf("%d " , p+2);
+    printf("%d " , *p);
+    printf("%d " , *p);
+
+
+    // printf("%d " , A);
+    // printf("%d " , A+2);
+    // printf("%d " , *A);
+    // printf("%d " , *(A+ 1));
     return 0 ;
 }
 
