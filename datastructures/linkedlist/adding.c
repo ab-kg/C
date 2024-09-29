@@ -12,7 +12,6 @@ typedef struct  Node {
 
 void insert_end(Node** root , int value)
 {   
-    
     Node* new_node = malloc(sizeof(Node));
     if(new_node = NULL)
     {

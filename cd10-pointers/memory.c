@@ -1,10 +1,11 @@
 // Memory Distribution
 
-// Heap             => 
+// Heap             => Dynamic memory 
 // Stack            => Function Calls / Local Variable
 // Static / Global  => global variables
-// Code /Text 
+// Code /Text       => instructions 
 
+// Dynamic memory can grow as much as there is available memory space int the computer 
 
 
 #include <stdio.h>
@@ -70,19 +71,17 @@
 //     // malloc returns void pointer , so we converted the void pointer into integer pointer  
 //     p = (int*)malloc(sizeof(int));
 //     *p = 10 ;
-
+//     printf("%d\n" , p);
+//     printf("%d\n" , *p);
 //     // we can free the first memory block 
 //     free(p);
 
 //     // only way to access this memory block is by pointing towards the point  
-//     p = (int*)malloc(20*sizeof(int));
+//     // p = (int*)malloc(20*sizeof(int));
 //     // *p = p[0]
 //     // *(p + 1) = p[1]
 
-
 //     // now the pointer points towards another heap memory of int size 
-
-
 //     return 0 ;
 // }
 
@@ -103,26 +102,62 @@
 
 // -----------------------------------------------------------------------
 
+// int main()
+// {
+//     int n ;
+//     printf("enter size of array");
+//     scanf("%d" , &n);
+
+//     int *A = (int*)malloc(n*sizeof(int));
+
+//     for(int i = 0 ; i < n ; i++)
+//     {
+//         A[i] = i+1 ;
+//     }
+
+//     for(int i = 0 ; i < n ; i++)
+//     {
+//         printf("%d " , A[i]);
+//     }
+
+//     return 0 ;
+// }
+
+
+// ------------------------------------
+
 int main()
 {
     int n ;
-    printf("enter size of array");
+    printf("Enteer the size of the arraay\n");
     scanf("%d" , &n);
 
-    int *A = (int*)malloc(n*sizeof(int));
+    int *A = (int *)malloc(n*sizeof(int));
 
-    for(int i = 0 ; i < n ; i++)
+    for(int i= 0 ; i< n ; i++)
     {
-        A[i] = i+1 ;
+        A[i] = i + 1 ;
+    }
+    // free(A);
+    int *B ;
+    B = (int *)realloc(A , 2*n*sizeof(int));
+    printf("prev bloc address= %d , new address = %d\n", A , B);
+
+    for(int i  = 0 ; i< 2*n ; i++)
+    {
+        B[i] = i + 1 ;
     }
 
-    for(int i = 0 ; i < n ; i++)
+    for(int i = 0 ; i < 2*n ; i++)
     {
-        printf("%d " , A[i]);
+        printf("%d " , B[i]);
     }
-
     return 0 ;
 }
 
 
-
+// Do hard things in life is the philosophy 
+// wake up 
+// list down all the hard things you can go through
+// go through them 
+// Life will be so good 

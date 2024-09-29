@@ -1,25 +1,41 @@
 #include <stdio.h>
 
-//activation record 
+// how to write a recursive program ?
 
-//fun(1)
-//fun(2)
-//fun(3)
-//main
+// 1. divide the problem
+// 2. base condition to stop the recursion
 
-int fun(n)
+// Problem: Calculate the factorial of a 
+
+int factorial(int n)
 {
-    if(n==1)
+    if(n == 0)
     {
-        return 1;
-    }else {
-        return 1 + fun(n-1);
+        return 1 ;
+    }else{
+        return n*factorial(n-1);
     }
 }
 
 int main()
 {
-    int n = 3 ;
-    printf("%d" , fun(n));
+    int n = 10 ;
+    int ans = factorial(n);
+    printf("factorial of %d is %d" , n , ans);
+
     return 0 ;
 }
+
+
+
+// Recursive fn
+
+/*
+fn()
+if{              => base case
+
+}else{           => recursive procedure
+
+}
+
+*/
