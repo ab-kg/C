@@ -11,6 +11,12 @@ struct employee {
     int age;
 };
 
+
+
+void hello_world() {
+    printf("Hello, World!\n");
+}
+
 int num;
 void showMenu();
 
