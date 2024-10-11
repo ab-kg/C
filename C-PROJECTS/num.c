@@ -18,7 +18,10 @@ char * decimalToBinary(int  decimal)
     return binary;
 }
 
-
+// how do i become better at programming things 
+// things are not working fine , is it 
+// we are putting lots of work but not really 
+// we are getting good at shit 
 
 
 
