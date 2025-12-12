@@ -35,7 +35,6 @@ void printBoard()
             }
             else{
                 printf("%3d  " , board[k] );
-                
             }
             k = k-1 ;
         }
@@ -55,7 +54,6 @@ int movePlayer(int currentPlayer , int roll)
     {   
         snakesAndLadders[i]= 0 ;
     }
-
     // here positive weights represent ladder
     // and negative wieghts represent a snake 
     snakesAndLadders[6] = 40; 
@@ -72,7 +70,6 @@ int movePlayer(int currentPlayer , int roll)
     {
         return currentPlayer;
     }
-
     return newSquare;
 }
 

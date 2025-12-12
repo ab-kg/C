@@ -9,6 +9,7 @@
 // declaring results
 
 // structure of Candidate 
+
 typedef struct Candidate{
     char name[40];
     char symbol;
@@ -23,8 +24,7 @@ char symbols[10] = {'!', '@', '#', '$', '%', '^', '&', '*', '~', '+' };
 
 int symbolsTaken[11];
 
-
-int mai()
+int main()
 {   
     // initializing necessary data structures
     for(int i = 0 ; i< 11 ; i++)
